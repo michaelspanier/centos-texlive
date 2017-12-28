@@ -12,4 +12,4 @@ RUN PACKAGES="wget perl perl-Digest-MD5 make" \
 	&& cd install-tl-* \
 	&& ./install-tl -profile /texlive.profile
 # Cleanup
-	&& rm -rf install-tl-*
+	rm -rf install-tl-*
