@@ -1,6 +1,6 @@
 # see https://hub.docker.com/r/camilstaps/texlive/~/dockerfile/
-LABEL maintainer="spanier.michael@gmail.com"
 FROM centos:7
+LABEL maintainer="spanier.michael@gmail.com"
 
 COPY texlive.profile /
 
