@@ -10,7 +10,6 @@ RUN PACKAGES="wget perl perl-Digest-MD5 make" \
 	&& wget -qO- http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz |\
 		tar xz \
 	&& cd install-tl-* \
-	&& ./install-tl -profile /texlive.profile
-	
-# Cleanup
-	rm -rf install-tl-*
+	&& ./install-tl -profile /texlive.profile \
+	# Cleanup 
+	&& rm -rf install-tl-*
